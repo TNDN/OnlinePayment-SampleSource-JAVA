@@ -15,7 +15,7 @@
 	if (body != "")
     {
         //FAIL로 응답 시 최대 10회까지 재 전송 처리
-        out.print("<xml><returnCode><![CDATA[FAIL]]></returnCode>></xml>");
+        out.print("<xml><returnCode><![CDATA[FAIL]]></returnCode></xml>");
     }
 	
 	GsonBuilder gson = new GsonBuilder();
@@ -35,7 +35,7 @@
     //out.print("ExchangeCurrecy=" + partnerNotification.getExchangeCurrecy() + "<br/>");
     //out.print("ExchangeAmount=" + partnerNotification.getExchangeAmount() + "<br/>");
     //out.print("ExchangeRate=" + partnerNotification.getExchangeRate() + "<br/>");
-	out.print("<xml><returnCode><![CDATA[SUCCESS]]></returnCode>></xml>");
+	out.print("<xml><returnCode><![CDATA[SUCCESS]]></returnCode></xml>");
 %>
 <body>
 </body>
