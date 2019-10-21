@@ -21,6 +21,14 @@
 	if ("SUCCESS" == resultCode)
     {
         //결제 성공
+		out.print("resultCode=" + resultCode + "<br/>");
+        out.print("resultMessage=" + resultMessage + "<br/>");
+        out.print("paymentType=" + paymentType + "<br/>");
+        out.print("orderNo=" + orderNo + "<br/>");
+        out.print("orderInfo=" + orderInfo + "<br/>");
+        out.print("transAmount=" + transAmount + "<br/>");
+        out.print("email=" + email + "<br/>");
+        out.print("additionalInfo=" + additionalInfo + "<br/>");
     }
     else
     {
