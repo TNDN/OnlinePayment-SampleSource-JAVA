@@ -16,6 +16,7 @@
     {
         //FAIL로 응답 시 최대 10회까지 재 전송 처리
         out.print("<xml><returnCode><![CDATA[FAIL]]></returnCode></xml>");
+        return;
     }
 	
 	GsonBuilder gson = new GsonBuilder();
