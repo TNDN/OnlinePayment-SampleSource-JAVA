@@ -28,7 +28,7 @@
         out.print("orderInfo=" + orderInfo + "<br/>");
         out.print("transAmount=" + transAmount + "<br/>");
         out.print("email=" + email + "<br/>");
-        out.print("additionalInfo=" + additionalInfo + "<br/>");
+        out.print("additionalInfo=" + additionalInfo);
     }
     else
     {
