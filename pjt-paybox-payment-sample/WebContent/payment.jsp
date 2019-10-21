@@ -291,7 +291,7 @@
             <div class="element">
                 <div class="etitle">notiUrl :</div>
                 <div class="einput">
-                	<input type="text" name="NotiUrl" value="http://www.tndn.co.kr/">
+                	<input type="text" name="NotiUrl" value="http://www.tndn.co.kr">
                 </div>
                 <br>
                 <div class="mark">Notification Url(거래성공 시 데이터 전송)</div>
@@ -299,7 +299,7 @@
             <div class="element">
                 <div class="etitle">returnUrl :</div>
                 <div class="einput">
-                	<input type="text" name="ReturnUrl" value="http://www.tndn.co.kr/">
+                	<input type="text" name="ReturnUrl" value="http://www.tndn.co.kr">
                 </div>
                 <br>
                 <div class="mark">Return Url(거래 성공 or 실패 결과 전송)</div>
@@ -343,7 +343,7 @@
         </form>
     </div>
     </div>
-
+    
     <!-- 푸터 -->
     <footer>
         <div class="footer-wrap">

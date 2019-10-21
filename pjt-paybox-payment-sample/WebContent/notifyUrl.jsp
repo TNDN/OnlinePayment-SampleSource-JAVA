@@ -12,7 +12,7 @@
 	//Request Body 읽기
 	String body = PayboxModule.getBody(request);
 	
-	if (body != "")
+	if (body == "")
     {
         //FAIL로 응답 시 최대 10회까지 재 전송 처리
         out.print("<xml><returnCode><![CDATA[FAIL]]></returnCode></xml>");
